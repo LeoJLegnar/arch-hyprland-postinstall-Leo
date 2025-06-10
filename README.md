@@ -52,7 +52,7 @@ Puedes ejecutar el script directamente descargándolo y ejecutándolo con `bash`
 
 ```bash
 bash <(curl -sL [https://raw.githubusercontent.com/LeoJLegnar/arch-hyprland-postinstall-Leo/main/arch-hyprland-postinstall-Leo.sh](https://raw.githubusercontent.com/LeoJLegnar/arch-hyprland-postinstall-Leo/main/arch-hyprland-postinstall-Leo.sh))
-
+```
 **Importante:**
 
 * Se recomienda ejecutar este script en una instalación limpia de Arch Linux después de haber instalado Hyprland.
