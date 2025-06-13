@@ -27,6 +27,9 @@ flatpak install -y flathub \
   com.spotify.Client \
   com.wps.Office
 
+echo ">>> Instalando VsCode..."
+yay -S --noconfirm code
+
 echo ">>> Instalando Vencord..."
 bash <(curl -s https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)
 
@@ -70,6 +73,7 @@ bind = SUPER, ctrl+L, exec, lutris
 bind = SUPER, ctrl+G, exec, steam
 bind = SUPER, ctrl+O, exec, obs
 bind = SUPER, ctrl+C, exec, kdeconnect-app
+bind = SUPER, ctrl+X, exec, code
 " >> "$CONFIG"
 
 echo ">>> Optimizaciones para Ryzen + 4070Ti..."
